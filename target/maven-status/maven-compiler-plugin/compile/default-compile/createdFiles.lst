@@ -1,0 +1,6 @@
+com/example/parcel/controller/ParcelController.class
+com/example/parcel/entity/Parcel.class
+com/example/parcel/repository/ParcelRepository.class
+com/example/parcel/dto/ParcelDTO.class
+com/example/parcel/ParcelBackendApplication.class
+com/example/parcel/service/ParcelService.class

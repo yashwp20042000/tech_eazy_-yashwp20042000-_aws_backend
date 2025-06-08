@@ -1,0 +1,32 @@
+
+{
+  "info": {
+    "name": "Parcel API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Parcel",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"customerName\":\"John Doe\",\"deliveryAddress\":\"123 Main St\",\"contactNumber\":\"555-1234\",\"parcelSize\":\"Medium\",\"parcelWeight\":\"2.5kg\",\"trackingNumber\":\"TRACK123\"}"
+        },
+        "url": "{{baseUrl}}/api/parcels"
+      }
+    },
+    {
+      "name": "Get All Parcels",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/parcels"
+      }
+    }
+  ],
+  "variable": [{
+    "key": "baseUrl",
+    "value": "https://ideal-palm-tree-q7679prxxvg5f9xwr-8080.app.github.dev/"
+  }]
+}

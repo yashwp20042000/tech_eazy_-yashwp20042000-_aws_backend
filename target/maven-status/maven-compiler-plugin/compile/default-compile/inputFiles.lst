@@ -1,0 +1,6 @@
+/workspaces/tech_eazy_-yashwp20042000-_aws_backend/src/main/java/com/example/parcel/ParcelBackendApplication.java
+/workspaces/tech_eazy_-yashwp20042000-_aws_backend/src/main/java/com/example/parcel/controller/ParcelController.java
+/workspaces/tech_eazy_-yashwp20042000-_aws_backend/src/main/java/com/example/parcel/dto/ParcelDTO.java
+/workspaces/tech_eazy_-yashwp20042000-_aws_backend/src/main/java/com/example/parcel/entity/Parcel.java
+/workspaces/tech_eazy_-yashwp20042000-_aws_backend/src/main/java/com/example/parcel/repository/ParcelRepository.java
+/workspaces/tech_eazy_-yashwp20042000-_aws_backend/src/main/java/com/example/parcel/service/ParcelService.java
